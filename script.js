@@ -68,7 +68,7 @@ setInterval(() => {
 }, 60);
 
 /* LOVE DURATION TIMER */
-const startDate = new Date("2024-05-20T00:00:00");
+const startDate = new Date("2025-05-20T00:00:00");
 const countdown = document.getElementById("countdown");
 
 setInterval(() => {
@@ -82,6 +82,6 @@ setInterval(() => {
 
   countdown.innerHTML = `
     ${d} days ${h} hours ${m} minutes ${s} seconds<br>
-    <small>since 20th May 2024 💖</small>
+    <small>since 20th May 2025 💖</small>
   `;
 }, 1000);
