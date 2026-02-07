@@ -1,7 +1,7 @@
 const music = document.getElementById("bgMusic");
 
 /* NAME TYPING */
-const nameText = "Divyanshi";
+const nameText = "Shakshi";
 let n = 0;
 const nameEl = document.getElementById("name");
 (function typeName(){
@@ -68,7 +68,7 @@ setInterval(() => {
 }, 60);
 
 /* LOVE DURATION TIMER */
-const startDate = new Date("2025-05-20T00:00:00");
+const startDate = new Date("2025-07-23T00:00:00");
 const countdown = document.getElementById("countdown");
 
 setInterval(() => {
@@ -82,6 +82,6 @@ setInterval(() => {
 
   countdown.innerHTML = `
     ${d} days ${h} hours ${m} minutes ${s} seconds<br>
-    <small>since 20th May 2025 💖</small>
+    <small>since 23rd July 2025 💖</small>
   `;
 }, 1000);
